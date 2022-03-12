@@ -1,5 +1,8 @@
 Main {
   background-color: #202026;
+  max-width: 540px;
+  margin: 0 auto;
+  border-radius: 15px;
 }
 
 .App {
@@ -15,4 +18,8 @@ Main {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.container {
+  background-color: #1c1c1c;
 }
