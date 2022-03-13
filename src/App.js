@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="Container">
         <main>
           <Card />
         </main>
