@@ -18,7 +18,7 @@ export default function Card() {
         class="btn btn-light Email"
         title="Contact Marla"
       >
-        📧 Email
+        <i class="far fa-envelope"></i> Email
       </a>
       <a
         href="https://www.linkedin.com/in/marla-laystrom-33301b6"
@@ -27,7 +27,7 @@ export default function Card() {
         rel="noreferrer"
         class="btn btn-primary"
       >
-        Linkedin
+        <i class="fab fa-linkedin"></i> Linkedin
       </a>
 
       <About />
