@@ -14,7 +14,7 @@ p {
   font-family: "Abel", sans-serif;
 }
 .Email {
-  color: #0b5ed7;
+  color: #1c1c1c;
 }
 
 .Info a {
@@ -27,5 +27,5 @@ p {
 
 .Info a:hover {
   text-decoration: underline;
-  opacity: 0.8;
+  color: blue;
 }

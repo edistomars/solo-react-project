@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <main>
+        <main class="border border-2">
           <Card />
         </main>
         <footer className="App-footer"></footer>

@@ -2,6 +2,8 @@ import React from "react";
 import "./Card.css";
 import About from "./About";
 import Interests from "./Interests";
+import Footer from "./Footer";
+import "./Footer.css";
 
 export default function Card() {
   return (
@@ -13,25 +15,23 @@ export default function Card() {
       />
       <h1>Marla Laystrom</h1>
       <p>Frontend Developer</p>
-      <a
-        href="mailto:marlalaystrom@gmail.com"
-        class="btn btn-light Email"
-        title="Contact Marla"
-      >
-        <i class="far fa-envelope"></i> Email
-      </a>
-      <a
-        href="https://www.linkedin.com/in/marla-laystrom-33301b6"
-        title="Linkedin Profile"
-        target="_blank "
-        rel="noreferrer"
-        class="btn btn-primary"
-      >
-        <i class="fab fa-linkedin"></i> Linkedin
-      </a>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <a
+          href="mailto:marlalaystrom@gmail.com"
+          class="btn btn-light Email"
+          title="Contact Marla"
+        >
+          <i class="far fa-envelope"></i> Email
+        </a>
+      </div>
 
       <About />
       <Interests />
+      <div className="Container">
+        <footer>
+          <Footer />
+        </footer>
+      </div>
     </div>
   );
 }
