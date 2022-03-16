@@ -1,6 +1,7 @@
 footer {
   margin: 44px 0;
   padding: 21px;
+  text-align: center;
 }
 
 footer a {
@@ -9,4 +10,8 @@ footer a {
   font-size: 30px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: #a2a8d3;
 }

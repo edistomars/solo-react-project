@@ -1,13 +1,15 @@
 h1 {
-  color: White;
-  font-size: 32px;
+  color: #a2a8d3;
+  font-size: 36px;
+  text-align: center;
 }
 img {
-  width: 300px;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  width: 258px;
+
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  display: block;
+  margin: 30px auto;
 }
 p {
   color: white;
@@ -27,5 +29,6 @@ p {
 
 .Info a:hover {
   text-decoration: underline;
-  color: blue;
+  color: #a2a8d3;
+  background-color: #1c1c1c;
 }

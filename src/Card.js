@@ -14,7 +14,7 @@ export default function Card() {
         className="img-fluid image-Marla"
       />
       <h1>Marla Laystrom</h1>
-      <p>Frontend Developer</p>
+      <p className="text-center">Frontend Developer</p>
       <div class="d-grid gap-2 col-6 mx-auto">
         <a
           href="mailto:marlalaystrom@gmail.com"

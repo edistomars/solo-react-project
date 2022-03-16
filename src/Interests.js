@@ -5,7 +5,7 @@ export default function Intersts() {
   return (
     <div className="Interests">
       <h2>Interests</h2>
-      <p>I like to spend my time...</p>
+      <p className="px-3">I like to spend my time...</p>
     </div>
   );
 }
