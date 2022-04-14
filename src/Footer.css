@@ -6,12 +6,12 @@ footer {
 
 footer a {
   color: white;
-  padding: 10px 14px;
+  padding: 10px 6px;
   font-size: 30px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 
-footer a:hover {
+a:hover {
   color: #a2a8d3;
 }

@@ -9,8 +9,8 @@ export default function About() {
         {" "}
         I have several years of higher education work experience under my belt;
         mainly in a medical school environment. Within the past year, I began
-        taking coding workshops where I complete projects and earn
-        certifications. Since May 2021, I have received the following
+        taking coding workshops where I have successfully completed projects and
+        earned certifications. Since May 2021, I have received the following
         certifications:{" "}
         <em>
           Introduction to Coding, Front-End Development, Responsive Web

@@ -19,3 +19,7 @@ Main {
 .Container {
   background-color: #1c1c1c;
 }
+
+.Container.primary {
+  padding-top: 50px;
+}

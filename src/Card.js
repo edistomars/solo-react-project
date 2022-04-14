@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 import About from "./About";
-import Interests from "./Interests";
+
 import Footer from "./Footer";
 import "./Footer.css";
 
@@ -26,7 +26,7 @@ export default function Card() {
       </div>
 
       <About />
-      <Interests />
+
       <div className="Container">
         <footer>
           <Footer />
